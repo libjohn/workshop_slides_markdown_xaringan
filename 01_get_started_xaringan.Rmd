@@ -16,7 +16,9 @@ class: middle, center
 
 # Nifty
 
-Slides and slide styline are imbued with subjective personal taste.  You will be able to customize your slides to produce [something like this (my taste.)](https://people.duke.edu/~jrl/dashboard_wednesday/)
+Slides and their styling are imbued with subjective personal taste.  You will be able to customize your slides to produce [something like this (my taste.)](https://people.duke.edu/~jrl/dashboard_wednesday/)
+
+The important idea is to use literate coding techniques to leveage the reproducibility bias of _R Markdown_
 
 But first, you have to get started with the basics....
 
