@@ -1,0 +1,115 @@
+---
+title: "Documentation / Reference"
+subtitle: "For xaringan-style slide deck"
+author: "John Little"
+institute: "Duke University Libraries"
+date: "2021/04/02"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Xaringan
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+#See slide on xaringanthemer
+library(xaringanthemer)
+# style_duo_accent(
+# primary_color = "#012169",     # Duke Navy Blue
+# secondary_color = "#005587",   # Prussian Blue
+style_mono_accent(
+base_color = "#1c5253",
+header_font_google = google_font("Josefin Sans"),
+text_font_google = google_font("Montserrat", "300", "300i"),
+code_font_google = google_font("Fira Mono")
+)
+```
+
+File > New File > R Markdown ... > From Template > Nija Presentation > Knit
+
+[Rmd. TDF. xaringan presentations -- Chapter 7. ](https://bookdown.org/yihui/rmarkdown/xaringan.html)
+
+[Xaringan Wiki](https://github.com/yihui/xaringan/wiki)
+
+- slide layouts
+- slide number
+- footer and header
+
+---
+
+# Remark.js
+
+[Remark.js Wiki](https://github.com/gnab/remark/wiki)
+
+- [Slide properties](https://github.com/gnab/remark/wiki/Markdown#slide-properties)
+    - class  
+    - background-image  
+    - template
+    - layout
+
+
+- CSS content classes  
+
+- Keyboard shortcuts  
+
+- Printing to PDF (print as PDF from Firefox/Chrome)
+
+---
+
+# Themes
+
+[xaringanthemer](https://pkg.garrickadenbuie.com/xaringanthemer/) with [Duke colors](https://brand.duke.edu/colors/)
+
+- **Definitely** read the [_Quick Intro_](https://pkg.garrickadenbuie.com/xaringanthemer/index.html#quick-intro)
+
+```r
+library(xaringanthemer)
+style_duo_accent(
+primary_color = "#012169",     # Duke Navy Blue
+secondary_color = "#005587",   # Prussian Blue
+# style_mono_accent(
+# base_color = "#1c5253",
+header_font_google = google_font("Josefin Sans"),
+text_font_google = google_font("Montserrat", "300", "300i"),
+code_font_google = google_font("Fira Mono")
+)
+```
+---
+class: center, middle
+Also note the very cool [**matching ggplot themes**](https://pkg.garrickadenbuie.com/xaringanthemer/index.html#matching-ggplot-themes)
+
+![](https://pkg.garrickadenbuie.com/xaringanthemer/reference/figures/index-theme_xaringan_demo-1.png)
+
+---
+
+# Styling with Apron & Descartes
+
+_avoiding "raw" HTML_
+
+- [Adirondak, and Descartes documentation](https://story.xaprb.com/slides/adirondack/#1)
+    - [Slide layouts (Apron)](https://story.xaprb.com/slides/adirondack/#5)
+    - [Image & element position / colors (Descartes)](https://story.xaprb.com/slides/adirondack/#33) [descartes.less](https://github.com/xaprb/story/blob/master/static/css/descartes.less)
+
+    
+### AND
+
+- **Tachyons** -- classes to control formatting and CSS 
+    - [See XaringanExtra # tachyons](https://pkg.garrickadenbuie.com/xaringanExtra/#/tachyons)
+
+
+--
+
+In these cases you must be comfortable importing the appropriate CSS sheets and referencing them in the YAML header.  Not hard, but beyond the focus of this workshop.
+
+- [apron.css](https://github.com/xaprb/story/blob/master/static/css/apron.css)
+- [descartes.css](https://github.com/xaprb/story/blob/master/static/css/descartes.css)
+- [tachyons.min.css](https://raw.githubusercontent.com/xaprb/story/master/static/css/tachyons.min.css)
+
+
