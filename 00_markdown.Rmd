@@ -9,7 +9,7 @@ A [lightweight markup language](https://en.wikipedia.org/wiki/Lightweight_markup
 
 ## Literate Coding
 
-A technique where coding is interspersed with natural language. Used in support of reproducible research ^[https://en.wikipedia.org/wiki/Literate_programming]
+A technique where coding is interspersed with natural language. Used in support of reproducible research ^[https://en.wikipedia.org/wiki/Literate_programming] 
 
 Examples include
 
