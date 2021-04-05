@@ -1,0 +1,76 @@
+---
+title: "Markdown & Literate Coding"
+output: html_notebook
+---
+
+## Markdown
+
+A [lightweight markup language](https://en.wikipedia.org/wiki/Lightweight_markup_language) for *creating formatted text* using a **plain-text editor**. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. ^[https://en.wikipedia.org/wiki/Markdown]
+
+## Literate Coding
+
+A technique where coding is interspersed with natural language. Used in support of reproducible research ^[https://en.wikipedia.org/wiki/Literate_programming]
+
+## Code chunks
+
+This is a code chunk
+
+```{r example, eval=FALSE}
+# nothing to see here
+```
+
+... with code inside it
+
+```{r plot cars}
+plot(cars)
+```
+
+The code chunks can be hidden or displayed:
+
+-   show output only
+-   show code and output
+-   show nothing run code
+-   show nothing (dont' run code)
+
+### Get Started
+
+> `File > New File > R Notebook`
+
+Every time you open a new R Notebook, the document will be pre-formatted with example text and code that can be used to learn how to use R Markdown and literate codding.
+
+## Visual Editor
+
+Starting with RStudio version 1.4.x you can use a visual (WYSIWYG) editor to edit R markdown documents. But not Xaringan.
+
+## Output formats
+
+There are multiple output formats that can be generated from `rmarkdown::render()`. Those format types are identified in the `output` element of the YAML header -- used for report configuration.
+
+Some format options include
+
+-   html_notebooks (while you develop your script)
+-   html_document (for final production)
+-   github_document (for github)
+-   MS Word file
+-   PDF document (requires some LaTEX engine - a mild pain to configure)
+-   Dashboards
+-   Slides (including Xaringan)
+-   ebooks (bookdown)
+-   web sites (blogdown, Distill)
+
+## YAML configuration
+
+The YAML header is at the top of the document. When you first opened this document the YAML header started at line 1 (always) and ended at line 4. (We may change that during this workshop.)
+
+## Render reports
+
+Most of the time you'll render your report by using he Knit button (or the Preview button) at the top of the script editor. But you can use the `rmarkdown::render()` function from the console.
+
+## Help
+
+There are three help documents for R Markdown avaialble from the Help menu of RStudio, Two are in the *cheatsheets* sub-section, the other is a top level within Help.  Also [this printable cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+See Also:
+
+-   R Markdown - <https://rmarkdown.rstudio.com/>
+-   *R Markdown: The Definitive Guide* - <https://bookdown.org/yihui/rmarkdown/>
