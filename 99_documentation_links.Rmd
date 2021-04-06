@@ -34,7 +34,7 @@ code_font_google = google_font("Fira Mono")
 
 File > New File > R Markdown ... > From Template > Nija Presentation > Knit
 
-[Rmd. TDF. xaringan presentations -- Chapter 7. ](https://bookdown.org/yihui/rmarkdown/xaringan.html)
+[Rmd. TDG. xaringan presentations -- Chapter 7. ](https://bookdown.org/yihui/rmarkdown/xaringan.html)
 
 [Xaringan Wiki](https://github.com/yihui/xaringan/wiki)
 
@@ -94,9 +94,10 @@ Also note the very cool [**matching ggplot themes**](https://pkg.garrickadenbuie
 
 _avoiding "raw" HTML_
 
-- [Adirondak, and Descartes documentation](https://story.xaprb.com/slides/adirondack/#1)
-    - [Slide layouts (Apron)](https://story.xaprb.com/slides/adirondack/#5)
-    - [Image & element position / colors (Descartes)](https://story.xaprb.com/slides/adirondack/#33) [descartes.less](https://github.com/xaprb/story/blob/master/static/css/descartes.less)
+- [Apron and Descartes documentation](https://story.xaprb.com/slides/adirondack/#1)
+    - [Slide layouts (**Apron**)](https://story.xaprb.com/slides/adirondack/#5)
+    - [Image & element position / colors (**Descartes**)](https://story.xaprb.com/slides/adirondack/#33)
+        - [descartes.less](https://github.com/xaprb/story/blob/master/static/css/descartes.less)
 
     
 ### AND
