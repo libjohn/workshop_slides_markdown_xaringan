@@ -1,0 +1,22 @@
+Type: Compendium
+Package: R workshop for xaringan slide presentations
+Title: Xaringan slides: an R Markdown approach to reproducible presentations
+Version: 1.1.0
+Authors@R: 
+    person(given = "John",
+           family = "Little",
+           role = c("aut", "cre"),
+           email = "John.Little@Duke.edu",
+           comment = c(ORCID = "0000-0002-3600-0972"))
+Description: Case Study:  Tips and tricks for making slide presentations using R Markdown and the xaringan library
+License: CC BY-NC
+URL:  https://github.com/libjohn/workshop_slides_markdown_xaringan
+Depends: 
+    DT,
+    knitr,
+    leaflet,
+    rmarkdown,
+    xaringan,
+    xaringanthemer
+Encoding: UTF-8
+LazyData: true
