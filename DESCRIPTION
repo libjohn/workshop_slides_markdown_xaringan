@@ -1,7 +1,7 @@
 Type: Compendium
 Package: R workshop for xaringan slide presentations
 Title: Xaringan slides: an R Markdown approach to reproducible presentations
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     person(given = "John",
            family = "Little",
