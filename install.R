@@ -1,6 +1,7 @@
 install.packages("DT")
 install.packages("knitr")
 install.packages("leaflet")
-install.packages("rmarkdown")
+# install.packages("rmarkdown")
 install.packages("xaringan")
 install.packages("xaringanthemer")
+remotes::install_github('rstudio/rmarkdown')
