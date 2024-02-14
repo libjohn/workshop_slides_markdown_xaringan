@@ -19,6 +19,9 @@ Binder](http://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://myb
 ![Lifecycle Deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange)
 <!-- badges: end -->
 
+This workshop is NOW out of date.  i.e. **Deprecated**!!  I recommend you use [Quarto revealJS presentations](https://quarto.org/docs/presentations/revealjs/).
+
+
 Supporting code for **Xaringan slides** workshop.
 
 Part of the DataFest Workshop Series. [R
