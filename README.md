@@ -15,6 +15,8 @@ BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creati
 
 [![Launch Rstudio
 Binder](http://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_slides_markdown_xaringan/main?urlpath=rstudio)
+
+![Lifecycle Deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange)
 <!-- badges: end -->
 
 Supporting code for **Xaringan slides** workshop.
